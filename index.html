@@ -1,65 +1,144 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Title</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS v5.2.0-beta1 -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="./index.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
     <div class="container">
-    <div class="mb-4 w-25">
+      <div class="mb-4 w-25">
         <h3>Bai 1</h3>
-        <button class="btn btn-success my-3" type="button" onclick= "check1()"> check</button>
-        <p class="alert alert-success" id= "result1" ></p>
+        <button class="btn btn-success my-3" type="button" onclick="check1()">
+          check
+        </button>
+        <p class="alert alert-success" id="result1"></p>
+      </div>
     </div>
+    <hr />
+    <div class="container">
+      <div class="mb-4 w-25">
+        <h3>Bai 2</h3>
+        <button class="btn btn-success my-3" type="button" onclick="check2()">
+          check
+        </button>
+        <p class="alert alert-success" id="result2"></p>
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="mb-4 w-25">
+        <h3>Bai 3</h3>
+        <button class="btn btn-success my-3" type="button" onclick="check3()">
+          check
+        </button>
+        <p class="alert alert-success" id="result3"></p>
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="mb-4 w-25">
+        <h3>Bai 4</h3>
+        <button class="btn btn-success my-3" type="button" onclick="check4()">
+          check
+        </button>
+        <p class="alert alert-success" id="result4"></p>
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="mb-4 w-25">
+        <h3>Bai 5</h3>
+        <button class="btn btn-success my-3" type="button" onclick="check5()">
+          check
+        </button>
+        <p class="alert alert-success" id="result5"></p>
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="mb-4 w-25">
+        <h3>Bai 6</h3>
+        <input
+          type="text"
+          id="gethepostion1"
+          placeholder="nhap thu tu muon doi"
+        />
+        <input
+          type="text"
+          id="gethepostion2"
+          placeholder="nhap thu tu muon doi"
+        />
 
+        <button class="btn btn-success my-3" type="button" onclick="check6()">
+          check
+        </button>
+        <p class="alert alert-success" id="result6"></p>
+      </div>
     </div>
-    <hr>
+    <hr />
+    <div class="container">
+      <div class="mb-4 w-25">
+        <h3>Bai 7</h3>
+        <button class="btn btn-success my-3" type="button" onclick="check7()">
+          check
+        </button>
+        <p class="alert alert-success" id="result7"></p>
+      </div>
+    </div>
+    <hr />
+    <div class="container">
+      <div class="mb-4 w-25">
+        <h3>Bai 8</h3>
+        <button class="btn btn-success my-3" type="button" onclick="check8()">
+          check
+        </button>
+        <p class="alert alert-success" id="result8"></p>
+      </div>
+    </div>
+    <hr />
     <div class="container">
         <div class="mb-4 w-25">
-            <h3>Bai 2</h3>
-            <button class="btn btn-success my-3" type="button" onclick= "check2()"> check </button>
-            <p class="alert alert-success" id= "result2" ></p>
+          <h3>Bai 9</h3>
+          <button class="btn btn-success my-3" type="button" onclick="check9()">
+            check
+          </button>
+          <p class="alert alert-success" id="result9"></p>
         </div>
-    
+      </div>
+      <hr>
+      <div class="container">
+        <div class="mb-4 w-25">
+          <h3>Bai 10</h3>
+          <button class="btn btn-success my-3" type="button" onclick="check10()"> check </button>
+          <p class="alert alert-success" id="result10"></p>
         </div>
-        <hr>
-        <div class="container">
-            <div class="mb-4 w-25">
-                <h3>Bai 3</h3>
-                <button class="btn btn-success my-3" type="button" onclick= "check3()"> check </button>
-                <p class="alert alert-success" id= "result3" ></p>
-            </div>
-        
-            </div>
-            <hr>
-            <div class="container">
-                <div class="mb-4 w-25">
-                    <h3>Bai 4</h3>
-                    <button class="btn btn-success my-3" type="button" onclick= "check4()"> check </button>
-                    <p class="alert alert-success" id= "result4" ></p>
-                </div>
-            
-                </div>
-                <hr>
-                \ <div class="container">
-                    <div class="mb-4 w-25">
-                        <h3>Bai 4</h3>
-                        <button class="btn btn-success my-3" type="button" onclick= "check5()"> check </button>
-                        <p class="alert alert-success" id= "result5" ></p>
-                    </div>
-                
-                    </div>
+      </div>
 
-                
     <!-- Bootstrap JavaScript Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="./jindex.js"> </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./jindex.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
