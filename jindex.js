@@ -44,11 +44,15 @@ function check3(){
   function check4(){
    
     for (var i=0;i<number.length;i++)
-    { if (number[i]>0){
-        var minNum=1;
+    { if (number[i]>=0){
+        var minNum=0;
         if(number[i]<=minNum){
             minNum=number[i]
+            break;
+            
+
         }
+        
     }
    
        
