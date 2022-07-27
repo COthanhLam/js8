@@ -24,7 +24,7 @@ for (var i=0;i<number.length;i++){
 
 }
 console.log(count);
-    domid("result2").innerHTML = count;
+document.getElementById("result2").innerHTML = count;
 
 }s
 //bai 3
@@ -38,7 +38,7 @@ function check3(){
 
     }
     console.log(min);
-    domid("result3").innerHTML= min;
+    document.getElementById("result3").innerHTML= min;
 }
 // // bai 4;
   function check4(){
@@ -57,7 +57,7 @@ function check3(){
    
        
     }
-    console.log(minNum);
+    document.getElementById("result4").innerHTML = minNum;
  }
 // bai 5
 function check5(){
@@ -73,7 +73,7 @@ function check5(){
    }
 console.log(lastEven);
    
-domid("result5").innerHTML=lastEven
+document.getElementById("result5").innerHTML=lastEven
     }
     // bai 6 
     function check6(){
@@ -86,7 +86,7 @@ domid("result5").innerHTML=lastEven
         number[pos1]=change2;
         number[post2]=change;
         console.log( number[pos1], number[pos2]);
-            domid("result6").innerHTML=number
+        document.getElementById("result6").innerHTML=number
 
     }
 //bai 7
@@ -137,7 +137,7 @@ function findNt(numb){
             numberNt=-1;
         }
     }  
-    domid("result8").innerHTML=numberNt 
+    document.getElementById("result8").innerHTML=numberNt 
 }
 //bai 9
 
@@ -156,9 +156,9 @@ function check10(){
         if (countB>countS)
         {
 
-            domid("result10").innerHTML= " duong nhieu hon";
+            document.getElementById("result10").innerHTML= " duong nhieu hon";
         }else {
-            domid("result10").innerHTML= " am nhieu hon";
+            document.getElementById("result10").innerHTML= " am nhieu hon";
 
         }
     }console.log(countB,countS)
